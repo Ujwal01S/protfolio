@@ -7,6 +7,8 @@ export const frontendStack = [
   "Next JS",
 ];
 
+export const stateManagement = ["Redux", "Zustand"];
+
 export const frontendTools = [
   "Shadcn UI",
   "Mantin UI",

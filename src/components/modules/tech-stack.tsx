@@ -1,4 +1,8 @@
-import { frontendStack, frontendTools } from "@/app/_mocks/tech-stack";
+import {
+  frontendStack,
+  frontendTools,
+  stateManagement,
+} from "@/app/_mocks/tech-stack";
 import { Badge } from "../ui/badge";
 
 const TechStackSection = () => {
@@ -12,6 +16,17 @@ const TechStackSection = () => {
         <p className='font-semibold'>Frontend Technologies</p>
         <div className='flex flex-wrap gap-2'>
           {frontendStack.map((item) => (
+            <Badge key={item} variant='secondary'>
+              {item}
+            </Badge>
+          ))}
+        </div>
+      </div>
+
+      <div className='grid gap-2'>
+        <p className='font-semibold'>State Management</p>
+        <div className='flex flex-wrap gap-2'>
+          {stateManagement.map((item) => (
             <Badge key={item} variant='secondary'>
               {item}
             </Badge>
