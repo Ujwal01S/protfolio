@@ -16,4 +16,5 @@ export const frontendTools = [
   "React Hook Form",
   "Zod",
   "Next Intl",
+  "Git",
 ];
