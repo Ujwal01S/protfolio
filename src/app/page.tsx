@@ -2,6 +2,7 @@ import AboutMe from "@/components/modules/about-me";
 import EducationSection from "@/components/modules/education";
 import ExperienceSection from "@/components/modules/experience-section";
 import ProjectSections from "@/components/modules/project";
+import TechStackSection from "@/components/modules/tech-stack";
 
 const HomePage = () => {
   return (
@@ -13,6 +14,8 @@ const HomePage = () => {
       <EducationSection />
 
       <ProjectSections />
+
+      <TechStackSection />
     </div>
   );
 };
