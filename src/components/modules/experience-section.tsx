@@ -41,7 +41,7 @@ const ExperienceSection = () => {
             </p>
           </div>
 
-          <AccordionContent className='pl-[64px] md:pl-[74px] py-0'>
+          <AccordionContent className='pl-[64px] md:pl-[74px] py-0 mb-4'>
             As an Associate Software Engineering Developer, I contributed to the
             development and maintenance of web applications, focusing on
             frontend technologies and collaborating with cross-functional teams
