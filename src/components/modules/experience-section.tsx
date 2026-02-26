@@ -37,7 +37,7 @@ const ExperienceSection = () => {
               </div>
             </AccordionTrigger>
             <p className='text-xs md:text-sm text-muted-foreground pr-4'>
-              Sep 2023 - Aug 2024
+              Jan 2026 - Present
             </p>
           </div>
 
